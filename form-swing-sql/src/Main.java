@@ -13,8 +13,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-
-
 public class Main {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Sign Up Page");
@@ -34,6 +32,7 @@ public class Main {
         //gender
         JLabel gender = new JLabel("Gender");
         JComboBox<String> genderComboBox = new JComboBox<>(new String[]{"Male", "Female", "Other"});
+        // we can add radion buttons as well
 
         //buttons
         JButton btn1 = new JButton("Register");
