@@ -105,6 +105,7 @@ class RegUser {
 
             }
         });
+        
         reset.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e){
                 nameArea.setText("");
