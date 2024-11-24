@@ -1,0 +1,1 @@
+javac -d bin -cp bin  src/Menu.java; java -cp "bin:lib/mysql-connector-j-9.1.0.jar" Menu  
